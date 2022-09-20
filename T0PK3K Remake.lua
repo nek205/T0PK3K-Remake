@@ -1,5 +1,7 @@
--- loadstring(game:HttpGet(""))()
+setfpscap(0)
+
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
+
 --{ Instances: }--
 
 local TKR = Instance.new("ScreenGui")
@@ -45,6 +47,11 @@ local Script_16 = Instance.new("TextButton")
 local Script_17 = Instance.new("TextButton")
 local Script_18 = Instance.new("TextButton")
 local Script_19 = Instance.new("TextButton")
+local Script_20 = Instance.new("TextButton")
+local Script_21 = Instance.new("TextButton")
+local Script_22 = Instance.new("TextButton")
+local Script_23 = Instance.new("TextButton")
+local Script_24 = Instance.new("TextButton")
 local Info = Instance.new("Frame")
 local Container_4 = Instance.new("ScrollingFrame")
 local TextLabel_12 = Instance.new("TextLabel")
@@ -68,6 +75,9 @@ local TextBox_3 = Instance.new("TextBox")
 local TextBox_4 = Instance.new("TextBox")
 local DisabledCommand = Instance.new("TextBox")
 local Label = Instance.new("TextLabel")
+
+wait(0.5)
+print("Loading...")
 
 --{ Properties: }--
 
@@ -218,7 +228,7 @@ TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(0, 6, 0, 29)
 TextLabel_2.Size = UDim2.new(1, -12, 0, 20)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "Patch version 1.5"
+TextLabel_2.Text = "Patch version 21"
 TextLabel_2.TextColor3 = Color3.fromRGB(199, 199, 199)
 TextLabel_2.TextSize = 14.000
 
@@ -307,7 +317,7 @@ Container_3.BorderColor3 = Color3.fromRGB(32, 66, 190)
 Container_3.Position = UDim2.new(0, 15, 0, 10)
 Container_3.Size = UDim2.new(1, -30, 0, 320)
 Container_3.BottomImage = "rbxassetid://368504177"
-Container_3.CanvasSize = UDim2.new(0, 0, 0, 540) -- 818
+Container_3.CanvasSize = UDim2.new(0, 0, 0, 2000) -- 818
 Container_3.MidImage = "rbxassetid://368504177"
 Container_3.ScrollBarThickness = 5
 Container_3.TopImage = "rbxassetid://368504177"
@@ -608,7 +618,7 @@ Script_19.Name = "Script"
 Script_19.Parent = Container_3
 Script_19.BackgroundColor3 = Color3.fromRGB(71, 106, 197)
 Script_19.BorderSizePixel = 0
-Script_19.Position = UDim2.new(0, 6, 0, 505)
+Script_19.Position = UDim2.new(0, 6, 0, 533)
 Script_19.Size = UDim2.new(1, -16, 0, 25)
 Script_19.Font = Enum.Font.SourceSans
 Script_19.Text = "Domain X"
@@ -618,6 +628,75 @@ Script_19.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
 end)
 
+Script_20.Name = "Script"
+Script_20.Parent = Container_3
+Script_20.BackgroundColor3 = Color3.fromRGB(71, 106, 197)
+Script_20.BorderSizePixel = 0
+Script_20.Position = UDim2.new(0, 6, 0, 561)
+Script_20.Size = UDim2.new(1, -16, 0, 25)
+Script_20.Font = Enum.Font.SourceSans
+Script_20.Text = "empty"
+Script_20.TextColor3 = Color3.fromRGB(199, 199, 199)
+Script_20.TextSize = 14.000
+Script_20.MouseButton1Click:Connect(function()
+	
+end)
+
+Script_21.Name = "Script"
+Script_21.Parent = Container_3
+Script_21.BackgroundColor3 = Color3.fromRGB(71, 106, 197)
+Script_21.BorderSizePixel = 0
+Script_21.Position = UDim2.new(0, 6, 0, 589)
+Script_21.Size = UDim2.new(1, -16, 0, 25)
+Script_21.Font = Enum.Font.SourceSans
+Script_21.Text = "empty"
+Script_21.TextColor3 = Color3.fromRGB(199, 199, 199)
+Script_21.TextSize = 14.000
+Script_21.MouseButton1Click:Connect(function()
+	
+end)
+
+Script_22.Name = "Script"
+Script_22.Parent = Container_3
+Script_22.BackgroundColor3 = Color3.fromRGB(71, 106, 197)
+Script_22.BorderSizePixel = 0
+Script_22.Position = UDim2.new(0, 6, 0, 617)
+Script_22.Size = UDim2.new(1, -16, 0, 25)
+Script_22.Font = Enum.Font.SourceSans
+Script_22.Text = "empty"
+Script_22.TextColor3 = Color3.fromRGB(199, 199, 199)
+Script_22.TextSize = 14.000
+Script_22.MouseButton1Click:Connect(function()
+	
+end)
+
+Script_23.Name = "Script"
+Script_23.Parent = Container_3
+Script_23.BackgroundColor3 = Color3.fromRGB(71, 106, 197)
+Script_23.BorderSizePixel = 0
+Script_23.Position = UDim2.new(0, 6, 0, 645)
+Script_23.Size = UDim2.new(1, -16, 0, 25)
+Script_23.Font = Enum.Font.SourceSans
+Script_23.Text = "empty"
+Script_23.TextColor3 = Color3.fromRGB(199, 199, 199)
+Script_23.TextSize = 14.000
+Script_23.MouseButton1Click:Connect(function()
+	
+end)
+
+Script_24.Name = "Script"
+Script_24.Parent = Container_3
+Script_24.BackgroundColor3 = Color3.fromRGB(71, 106, 197)
+Script_24.BorderSizePixel = 0
+Script_24.Position = UDim2.new(0, 6, 0, 673)
+Script_24.Size = UDim2.new(1, -16, 0, 25)
+Script_24.Font = Enum.Font.SourceSans
+Script_24.Text = "empty"
+Script_24.TextColor3 = Color3.fromRGB(199, 199, 199)
+Script_24.TextSize = 14.000
+Script_24.MouseButton1Click:Connect(function()
+	
+end)
 Info.Name = "Info"
 Info.Parent = Holder
 Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -691,7 +770,7 @@ TextLabel_13.BorderSizePixel = 0
 TextLabel_13.Position = UDim2.new(0, 6, 0, 6)
 TextLabel_13.Size = UDim2.new(1, -17, 0, 20)
 TextLabel_13.Font = Enum.Font.SourceSans
-TextLabel_13.Text = "Patch: 1.5"
+TextLabel_13.Text = "Patch: 21"
 TextLabel_13.TextColor3 = Color3.fromRGB(199, 199, 199)
 TextLabel_13.TextSize = 14.000
 
@@ -909,22 +988,23 @@ RunService.RenderStepped:Connect(function(frame)
 end)
 end)
 
-
+print("Script Loaded!")
+print("thank you for using T0PK3K Remake")
 --{ End of Code }--
 
 
 
 --less important stuff--
-([[
-discord:
 
-team scripted for errors:
-https://discord.gg/pZXZn9qtAY
+--discord:
 
-373RN1TY
-https://discord.gg/pzjDf5BPaS
+--team scripted for errors:
+--https://discord.gg/pZXZn9qtAY
 
-github:
-https://github.com/nek205
+--373RN1TY
+--https://discord.gg/pzjDf5BPaS
 
-    ]])
+--github:
+--https://github.com/nek205
+
+print("created by nek205 ;)")
