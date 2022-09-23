@@ -1,0 +1,119 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local TextButton = Instance.new("TextButton")
+local TextBox = Instance.new("TextBox")
+local Stop = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local Stopped = Instance.new("NumberValue")
+
+--Properties:
+Stopped.Name = "Stopped"
+Stopped.Parent = ScreenGui
+Stopped.Value = 0
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+TextButton.Parent = ScreenGui
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 0.500
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "Anoy"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextBox.Parent = ScreenGui
+TextBox.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.BackgroundTransparency = 0.500
+TextBox.Position = UDim2.new(0, 0, 0.0621890537, 0)
+TextBox.Size = UDim2.new(0, 200, 0, 50)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "Username"
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 14.000
+
+Stop.Name = "Stop"
+Stop.Parent = ScreenGui
+Stop.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Stop.BackgroundTransparency = 0.500
+Stop.Position = UDim2.new(0, 200, 0, 0)
+Stop.Size = UDim2.new(0, 200, 0, 50)
+Stop.Font = Enum.Font.SourceSans
+Stop.Text = "Stop"
+Stop.TextColor3 = Color3.fromRGB(0, 0, 0)
+Stop.TextScaled = true
+Stop.TextSize = 14.000
+Stop.TextWrapped = true
+
+TextButton_2.Parent = ScreenGui
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 0.500
+TextButton_2.Position = UDim2.new(0, 200, 0, 50)
+TextButton_2.Size = UDim2.new(0, 200, 0, 50)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "SUPER ANOY"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+-- Scripts:
+
+local function VXTUVGF_fake_script() -- TextButton.LocalScript 
+ local script = Instance.new('LocalScript', TextButton)
+
+ --Usernamesareforgeeks1#0860
+ script.Parent.MouseButton1Down:Connect(function(click)
+  while wait() do
+   local power = script.Parent.Parent.TextBox.Text
+  local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+  local target = script.Parent.Parent.TextBox.Text
+  p1.CFrame = game.Players[target].Character.HumanoidRootPart.CFrame
+  p1.CFrame = p1.CFrame *CFrame.fromEulerAnglesXYZ(5,5,5)
+  if script.Parent.Parent.Stopped.Value == 1 then
+   break
+  end
+  end
+  end)
+end
+coroutine.wrap(VXTUVGF_fake_script)()
+local function DXRLV_fake_script() -- Stop.LocalScript 
+ local script = Instance.new('LocalScript', Stop)
+
+ --Usernamesareforgeeks1#0860
+ script.Parent.MouseButton1Down:Connect(function(click)
+  script.Parent.Parent.Stopped.Value = 1
+  script.Parent.Text = "Stopping, Please re execute the script if u want to use it again"
+  wait(2)
+  script.Parent.Parent:Remove()
+ end)
+end
+coroutine.wrap(DXRLV_fake_script)()
+local function LGUO_fake_script() -- TextButton_2.LocalScript 
+ local script = Instance.new('LocalScript', TextButton_2)
+
+ --Usernamesareforgeeks1#0860
+ script.Parent.MouseButton1Down:Connect(function(click)
+  while wait() do
+   local power = script.Parent.Parent.TextBox.Text
+  local p1 = game.Players.LocalPlayer.Character.HumanoidRootPart
+  local target = script.Parent.Parent.TextBox.Text
+  p1.CFrame = game.Players[target].Character.HumanoidRootPart.CFrame
+  p1.CFrame = p1.CFrame *CFrame.fromEulerAnglesXYZ(1,1,1)
+  if script.Parent.Parent.Stopped.Value == 1 then
+   break
+  end
+  end
+  end)
+end
+coroutine.wrap(LGUO_fake_script)()
