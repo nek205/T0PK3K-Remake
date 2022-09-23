@@ -161,7 +161,7 @@ Hide.MouseButton1Click:Connect(function()
 		winState = 0
 		Main:TweenSize(UDim2.new(0, 470, 0, 395), 'In', 'Quad', 0.3, true)
 	end
-	
+
 end)
 
 DisabledLabel.Name = "DisabledLabel"
@@ -228,7 +228,7 @@ TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(0, 6, 0, 29)
 TextLabel_2.Size = UDim2.new(1, -12, 0, 20)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "Patch version 21"
+TextLabel_2.Text = "Patch version 23.5"
 TextLabel_2.TextColor3 = Color3.fromRGB(199, 199, 199)
 TextLabel_2.TextSize = 14.000
 
@@ -373,7 +373,7 @@ Script.Text = "Adonis"
 Script.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script.TextSize = 14.000
 Script.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/Adonis.txt", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Adonis", true))()
 end)
 
 Script_2.Name = "Script"
@@ -387,7 +387,7 @@ Script_2.Text = "Fiery"
 Script_2.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_2.TextSize = 14.000
 Script_2.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/Fiery.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Fiery"))()
 end)
 
 Script_3.Name = "Script"
@@ -401,7 +401,7 @@ Script_3.Text = "Flash"
 Script_3.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_3.TextSize = 14.000
 Script_3.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/flash.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Flash"))()
 end)
 
 Script_4.Name = "Script"
@@ -415,7 +415,7 @@ Script_4.Text = "Grapple"
 Script_4.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_4.TextSize = 14.000
 Script_4.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/Grapple.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Grapple"))()
 end)
 
 Script_5.Name = "Script"
@@ -429,7 +429,7 @@ Script_5.Text = "Gravity"
 Script_5.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_5.TextSize = 14.000
 Script_5.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/Gravity.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Gravity"))()
 end)
 
 Script_6.Name = "Script"
@@ -443,7 +443,7 @@ Script_6.Text = "Homebrew"
 Script_6.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_6.TextSize = 14.000
 Script_6.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/Homebrew.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Homebrew"))()
 end)
 
 Script_7.Name = "Script"
@@ -457,7 +457,7 @@ Script_7.Text = "Parkour"
 Script_7.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_7.TextSize = 14.000
 Script_7.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/Parkour%20Updated.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Parkour"))()
 end)
 
 Script_8.Name = "Script"
@@ -471,7 +471,7 @@ Script_8.Text = "Selexity"
 Script_8.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_8.TextSize = 14.000
 Script_8.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/Selexity.txt"))()
+	loadstring(game:HttpGet("https://raw.githuberscontent.com/nek205/T0PK3K-Remake/blob/Scripts/Selexity"))()
 end)
 
 Script_9.Name = "Script"
@@ -485,7 +485,7 @@ Script_9.Text = "Typical Hub"
 Script_9.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_9.TextSize = 14.000
 Script_9.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/Typical%20Hub.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Typical%20Hub"))()
 end)
 
 Script_10.Name = "Script"
@@ -499,7 +499,7 @@ Script_10.Text = "FE Skateboard"
 Script_10.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_10.TextSize = 14.000
 Script_10.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/fe_skate.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Skateboard"))()
 end)
 
 Script_11.Name = "Script"
@@ -513,7 +513,7 @@ Script_11.Text = "Flu Gui"
 Script_11.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_11.TextSize = 14.000
 Script_11.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/FluGUI.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Flu%20Gui"))()
 end)
 
 Script_12.Name = "Script"
@@ -527,7 +527,7 @@ Script_12.Text = "Fate's Admin"
 Script_12.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_12.TextSize = 14.000
 Script_12.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/Fate.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Fates%20Admin"))()
 end)
 
 Script_13.Name = "Script"
@@ -541,7 +541,7 @@ Script_13.Text = "Aspect Hub"
 Script_13.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_13.TextSize = 14.000
 Script_13.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/Aspect%20Hub.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Aspect%20Hub"))()
 end)
 
 Script_14.Name = "Script"
@@ -555,7 +555,7 @@ Script_14.Text = "Selexity Reborn"
 Script_14.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_14.TextSize = 14.000
 Script_14.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/Selexity%20Reborn.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Selexity%20Reborn"))()
 end)
 
 Script_15.Name = "Script"
@@ -569,7 +569,7 @@ Script_15.Text = "UTG Reborn"
 Script_15.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_15.TextSize = 14.000
 Script_15.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/UTG%20REBORN.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/UTG%20Reborn"))()
 end)
 
 Script_16.Name = "Script"
@@ -579,11 +579,11 @@ Script_16.BorderSizePixel = 0
 Script_16.Position = UDim2.new(0, 6, 0, 449)
 Script_16.Size = UDim2.new(1, -16, 0, 25)
 Script_16.Font = Enum.Font.SourceSans
-Script_16.Text = "T0PK3K"
+Script_16.Text = "Annoy Gui v2"
 Script_16.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_16.TextSize = 14.000
 Script_16.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/TOPK3K.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Annoy%20Gui%20v2"))()
 end)
 
 Script_17.Name = "Script"
@@ -597,7 +597,7 @@ Script_17.Text = "FE Neko"
 Script_17.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_17.TextSize = 14.000
 Script_17.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/nekomaid.txt"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Neko"))()
 end)
 
 Script_18.Name = "Script"
@@ -611,7 +611,7 @@ Script_18.Text = "FE Server Admin"
 Script_18.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_18.TextSize = 14.000
 Script_18.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/T0PK3K-REMAKE/scripts/server%20admin%20god.txt"))()
+	loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/ONEReverseCard/My-Scripts/main/Netless%20Server%20Admin.md'))()"))()
 end)
 
 Script_19.Name = "Script"
@@ -635,11 +635,11 @@ Script_20.BorderSizePixel = 0
 Script_20.Position = UDim2.new(0, 6, 0, 561)
 Script_20.Size = UDim2.new(1, -16, 0, 25)
 Script_20.Font = Enum.Font.SourceSans
-Script_20.Text = "empty"
+Script_20.Text = "Annoying Admin"
 Script_20.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_20.TextSize = 14.000
 Script_20.MouseButton1Click:Connect(function()
-	
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/TheMightySource/FE-Annoying-Admin/main/Main.lua"),true))()
 end)
 
 Script_21.Name = "Script"
@@ -649,11 +649,11 @@ Script_21.BorderSizePixel = 0
 Script_21.Position = UDim2.new(0, 6, 0, 589)
 Script_21.Size = UDim2.new(1, -16, 0, 25)
 Script_21.Font = Enum.Font.SourceSans
-Script_21.Text = "empty"
+Script_21.Text = "Parkour v2"
 Script_21.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_21.TextSize = 14.000
 Script_21.MouseButton1Click:Connect(function()
-	
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Parkour%20v2"),true))()
 end)
 
 Script_22.Name = "Script"
@@ -663,11 +663,11 @@ Script_22.BorderSizePixel = 0
 Script_22.Position = UDim2.new(0, 6, 0, 617)
 Script_22.Size = UDim2.new(1, -16, 0, 25)
 Script_22.Font = Enum.Font.SourceSans
-Script_22.Text = "empty"
+Script_22.Text = "Tool Animator"
 Script_22.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_22.TextSize = 14.000
 Script_22.MouseButton1Click:Connect(function()
-	
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Tool%20Animator"),true))()
 end)
 
 Script_23.Name = "Script"
@@ -677,11 +677,11 @@ Script_23.BorderSizePixel = 0
 Script_23.Position = UDim2.new(0, 6, 0, 645)
 Script_23.Size = UDim2.new(1, -16, 0, 25)
 Script_23.Font = Enum.Font.SourceSans
-Script_23.Text = "empty"
+Script_23.Text = "Death Note"
 Script_23.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_23.TextSize = 14.000
 Script_23.MouseButton1Click:Connect(function()
-	
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Death%20Note"),true))()
 end)
 
 Script_24.Name = "Script"
@@ -695,7 +695,7 @@ Script_24.Text = "empty"
 Script_24.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_24.TextSize = 14.000
 Script_24.MouseButton1Click:Connect(function()
-	
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Classic%20Animations"),true))()
 end)
 Info.Name = "Info"
 Info.Parent = Holder
@@ -770,7 +770,7 @@ TextLabel_13.BorderSizePixel = 0
 TextLabel_13.Position = UDim2.new(0, 6, 0, 6)
 TextLabel_13.Size = UDim2.new(1, -17, 0, 20)
 TextLabel_13.Font = Enum.Font.SourceSans
-TextLabel_13.Text = "Patch: 21"
+TextLabel_13.Text = "Patch: 23.5"
 TextLabel_13.TextColor3 = Color3.fromRGB(199, 199, 199)
 TextLabel_13.TextSize = 14.000
 
@@ -780,7 +780,7 @@ TextLabel_14.BorderSizePixel = 0
 TextLabel_14.Position = UDim2.new(0, 6, 0, 29)
 TextLabel_14.Size = UDim2.new(1, -17, 0, 20)
 TextLabel_14.Font = Enum.Font.SourceSans
-TextLabel_14.Text = "Devnote: pizza"
+TextLabel_14.Text = "Dev note: Fixed errors, added more scripts"
 TextLabel_14.TextColor3 = Color3.fromRGB(199, 199, 199)
 TextLabel_14.TextSize = 14.000
 
@@ -799,6 +799,8 @@ FO10 - Some Scripts Provider
 Bubba - Gui
 
 nek205 - creator
+
+Erencool#4300 - an idiot
 
 Credit to the script owners
 
@@ -969,23 +971,23 @@ Label.TextSize = 18.000
 local RunService = game:GetService("RunService")
 
 spawn(function()
-        while true do
-            TextLabel_4.Text = "Server Time: "..tostring(game:GetService('Workspace').DistributedGameTime)
-            wait(.5)
-        end
+	while true do
+		TextLabel_4.Text = "Server Time: "..tostring(game:GetService('Workspace').DistributedGameTime)
+		wait(.5)
+	end
 end)
 
 spawn(function()
-        while true do
-            TextLabel_5.Text = "Server Size: "..tostring(game:GetService('Players').NumPlayers)
-            wait(.5)
-        end
+	while true do
+		TextLabel_5.Text = "Server Size: "..tostring(game:GetService('Players').NumPlayers)
+		wait(.5)
+	end
 end)
 
 spawn(function()
-RunService.RenderStepped:Connect(function(frame)
-	TextLabel_8.Text = "FPS: "..(math.round(1/frame))
-end)
+	RunService.RenderStepped:Connect(function(frame)
+		TextLabel_8.Text = "FPS: "..(math.round(1/frame))
+	end)
 end)
 
 print("Script Loaded!")
@@ -1008,3 +1010,5 @@ print("thank you for using T0PK3K Remake")
 --https://github.com/nek205
 
 print("created by nek205 ;)")
+
+print("T0PK3K REMAKE VERSION 23.5")
