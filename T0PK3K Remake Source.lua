@@ -1017,4 +1017,4 @@ print("thank you for using T0PK3K Remake")
 
 print("created by nek205 ;)")
 
-print("T0PK3K REMAKE VERSION 23.5")
+print("T0PK3K REMAKE PATCH 26")
