@@ -228,7 +228,7 @@ TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(0, 6, 0, 29)
 TextLabel_2.Size = UDim2.new(1, -12, 0, 20)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "Patch version 23.5"
+TextLabel_2.Text = "Patch version 26"
 TextLabel_2.TextColor3 = Color3.fromRGB(199, 199, 199)
 TextLabel_2.TextSize = 14.000
 
@@ -495,11 +495,11 @@ Script_10.BorderSizePixel = 0
 Script_10.Position = UDim2.new(0, 6, 0, 281)
 Script_10.Size = UDim2.new(1, -16, 0, 25)
 Script_10.Font = Enum.Font.SourceSans
-Script_10.Text = "FE Skateboard"
+Script_10.Text = "Lag Switch"
 Script_10.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_10.TextSize = 14.000
 Script_10.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Skateboard"))()
+	loadstring(game:HttpGet("https://paste.gg/p/anonymous/d3492bd620bd4c46b54680ac80b0fa0d/files/161ddd9c992c4ceba3c298458d45188a/raw"))()
 end)
 
 Script_11.Name = "Script"
@@ -635,11 +635,11 @@ Script_20.BorderSizePixel = 0
 Script_20.Position = UDim2.new(0, 6, 0, 561)
 Script_20.Size = UDim2.new(1, -16, 0, 25)
 Script_20.Font = Enum.Font.SourceSans
-Script_20.Text = "Annoying Admin"
+Script_20.Text = "Stream Sniper"
 Script_20.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_20.TextSize = 14.000
 Script_20.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet(("https://raw.githubusercontent.com/TheMightySource/FE-Annoying-Admin/main/Main.lua"),true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Blissful4992/Miscellaneous/main/StreamSniper.lua"))()
 end)
 
 Script_21.Name = "Script"
@@ -649,11 +649,11 @@ Script_21.BorderSizePixel = 0
 Script_21.Position = UDim2.new(0, 6, 0, 589)
 Script_21.Size = UDim2.new(1, -16, 0, 25)
 Script_21.Font = Enum.Font.SourceSans
-Script_21.Text = "Parkour v2"
+Script_21.Text = "zombie AI"
 Script_21.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_21.TextSize = 14.000
 Script_21.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet(("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Parkour%20v2"),true))()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/zombie"),true))()
 end)
 
 Script_22.Name = "Script"
@@ -691,11 +691,11 @@ Script_24.BorderSizePixel = 0
 Script_24.Position = UDim2.new(0, 6, 0, 673)
 Script_24.Size = UDim2.new(1, -16, 0, 25)
 Script_24.Font = Enum.Font.SourceSans
-Script_24.Text = "empty"
+Script_24.Text = "Universal ESP"
 Script_24.TextColor3 = Color3.fromRGB(199, 199, 199)
 Script_24.TextSize = 14.000
 Script_24.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet(("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Classic%20Animations"),true))()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Universal%20ESP"),true))()
 end)
 Info.Name = "Info"
 Info.Parent = Holder
@@ -732,13 +732,19 @@ have been showcased on FO10's
 and Dark Eccentric
 YouTube channel.
 remaked by nek205
-tinyengine#8404
 
+--discord:
+tinyengine#0927
 
-scripts from Dark Eccentric channel
-might require hats
-you can find them here:
-https://youtube.com/c/DarkEccentric/videos
+--team scripted for errors:
+--https://discord.gg/pZXZn9qtAY
+
+--373RN1TY
+--https://discord.gg/pzjDf5BPaS
+
+--github:
+
+--https://github.com/nek205
 
 ]])
 TextLabel_12.TextColor3 = Color3.fromRGB(199, 199, 199)
@@ -770,7 +776,7 @@ TextLabel_13.BorderSizePixel = 0
 TextLabel_13.Position = UDim2.new(0, 6, 0, 6)
 TextLabel_13.Size = UDim2.new(1, -17, 0, 20)
 TextLabel_13.Font = Enum.Font.SourceSans
-TextLabel_13.Text = "Patch: 23.5"
+TextLabel_13.Text = "Patch: 26"
 TextLabel_13.TextColor3 = Color3.fromRGB(199, 199, 199)
 TextLabel_13.TextSize = 14.000
 
@@ -780,7 +786,7 @@ TextLabel_14.BorderSizePixel = 0
 TextLabel_14.Position = UDim2.new(0, 6, 0, 29)
 TextLabel_14.Size = UDim2.new(1, -17, 0, 20)
 TextLabel_14.Font = Enum.Font.SourceSans
-TextLabel_14.Text = "Dev note: Fixed errors, added more scripts"
+TextLabel_14.Text = "You can see updates info on our github"
 TextLabel_14.TextColor3 = Color3.fromRGB(199, 199, 199)
 TextLabel_14.TextSize = 14.000
 
