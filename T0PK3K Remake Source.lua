@@ -1,4 +1,19 @@
+print(Execution Working)
+
 setfpscap(0)
+
+spawn(function()
+	local message = Instance.new("Message",workspace)
+	message.Text = "Press F9 for details"
+	wait(1.6)
+	message:Destroy()
+	end)
+
+wait(1)
+print("Script Executed")
+wait(0.5)
+print("Preparing Script...")
+wait(3)
 
 --{ Instances: }--
 
@@ -50,6 +65,7 @@ local Script_21 = Instance.new("TextButton")
 local Script_22 = Instance.new("TextButton")
 local Script_23 = Instance.new("TextButton")
 local Script_24 = Instance.new("TextButton")
+local Script_25 = Instance.new("TextButton")
 local Info = Instance.new("Frame")
 local Container_4 = Instance.new("ScrollingFrame")
 local TextLabel_12 = Instance.new("TextLabel")
@@ -74,7 +90,7 @@ local TextBox_4 = Instance.new("TextBox")
 local DisabledCommand = Instance.new("TextBox")
 local Label = Instance.new("TextLabel")
 
-wait(0.5)
+wait(0.9)
 print("Loading...")
 
 --{ Properties: }--
@@ -220,13 +236,15 @@ TextLabel.Text = "T0PK3K REMAKE FE EDITION"
 TextLabel.TextColor3 = Color3.fromRGB(199, 199, 199)
 TextLabel.TextSize = 14.000
 
+wait(0.9)
+
 TextLabel_2.Parent = Container
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(51, 76, 209)
 TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(0, 6, 0, 29)
 TextLabel_2.Size = UDim2.new(1, -12, 0, 20)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "Patch version 26"
+TextLabel_2.Text = "Patch version 27"
 TextLabel_2.TextColor3 = Color3.fromRGB(199, 199, 199)
 TextLabel_2.TextSize = 14.000
 
@@ -259,6 +277,8 @@ TextLabel_5.Font = Enum.Font.SourceSans
 TextLabel_5.Text = "Server Size: "
 TextLabel_5.TextColor3 = Color3.fromRGB(199, 199, 199)
 TextLabel_5.TextSize = 14.000
+
+wait(0.8)
 
 TextLabel_6.Parent = Container
 TextLabel_6.BackgroundColor3 = Color3.fromRGB(51, 76, 209)
@@ -359,6 +379,9 @@ searchbar.Changed:Connect(function()
 		end
 	end
 end)
+
+print("Loading scripts...")
+wait(1.3)
 
 Script.Name = "Script"
 Script.Parent = Container_3
@@ -695,6 +718,24 @@ Script_24.TextSize = 14.000
 Script_24.MouseButton1Click:Connect(function()
 	loadstring(game:HttpGet(("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Universal%20ESP"),true))()
 end)
+
+Script_25.Name = "Script"
+Script_25.Parent = Container_3
+Script_25.BackgroundColor3 = Color3.fromRGB(71, 106, 197)
+Script_25.BorderSizePixel = 0
+Script_25.Position = UDim2.new(0, 6, 0, 701)
+Script_25.Size = UDim2.new(1, -16, 0, 25)
+Script_25.Font = Enum.Font.SourceSans
+Script_25.Text = "Invisible Fling"
+Script_25.TextColor3 = Color3.fromRGB(199, 199, 199)
+Script_25.TextSize = 14.000
+Script_25.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/nek205/T0PK3K-Remake/Scripts/Invisible%20Fling"),true))()
+end)
+
+print("Scripts Loaded!")
+wait(1)
+
 Info.Name = "Info"
 Info.Parent = Holder
 Info.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -731,18 +772,11 @@ and Dark Eccentric
 YouTube channel.
 remaked by nek205
 
---discord:
+discord:
 tinyengine#0927
 
---team scripted for errors:
---https://discord.gg/pZXZn9qtAY
-
---373RN1TY
---https://discord.gg/pzjDf5BPaS
-
---github:
-
---https://github.com/nek205
+pls join my servers displayed
+in the console
 
 ]])
 TextLabel_12.TextColor3 = Color3.fromRGB(199, 199, 199)
@@ -763,10 +797,12 @@ Container_5.BorderColor3 = Color3.fromRGB(32, 66, 190)
 Container_5.Position = UDim2.new(0, 15, 0, 10)
 Container_5.Size = UDim2.new(1, -30, 0, 320)
 Container_5.BottomImage = "rbxassetid://368504177"
-Container_5.CanvasSize = UDim2.new(0, 0, 0, 343)
+Container_5.CanvasSize = UDim2.new(0, 0, 0, 543)
 Container_5.MidImage = "rbxassetid://368504177"
 Container_5.ScrollBarThickness = 5
 Container_5.TopImage = "rbxassetid://368504177"
+
+wait(1)
 
 TextLabel_13.Parent = Container_5
 TextLabel_13.BackgroundColor3 = Color3.fromRGB(51, 76, 209)
@@ -774,7 +810,7 @@ TextLabel_13.BorderSizePixel = 0
 TextLabel_13.Position = UDim2.new(0, 6, 0, 6)
 TextLabel_13.Size = UDim2.new(1, -17, 0, 20)
 TextLabel_13.Font = Enum.Font.SourceSans
-TextLabel_13.Text = "Patch: 26"
+TextLabel_13.Text = "Patch: 27"
 TextLabel_13.TextColor3 = Color3.fromRGB(199, 199, 199)
 TextLabel_13.TextSize = 14.000
 
@@ -799,6 +835,8 @@ TextLabel_15.Text = ([[
 	
 	
 FO10 - Some Scripts Provider
+
+Dark Eccentric - Some Scripts Provider
 
 Bubba - Gui
 
@@ -957,6 +995,8 @@ DisabledCommand.TextSize = 12.000
 DisabledCommand.TextStrokeTransparency = 0.800
 DisabledCommand.TextTransparency = 0.300
 
+wait(1)
+
 Label.Name = "Label"
 Label.Parent = Main
 Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -970,7 +1010,7 @@ Label.Text = "T0PK3K REMAKE"
 Label.TextColor3 = Color3.fromRGB(255, 255, 255)
 Label.TextSize = 18.000
 
---{ Scripts: }--
+--{ Services }--
 
 local RunService = game:GetService("RunService")
 
@@ -994,25 +1034,30 @@ spawn(function()
 	end)
 end)
 
+wait(2)
 print("Script Loaded!")
 print("thank you for using T0PK3K Remake")
 --{ End of Code }--
 
+print([[
+ 
+discord:
+tinyengine#0927
 
+team scripted for errors:
+https://discord.gg/pZXZn9qtAY
 
---less important stuff--
+373RN1TY
+https://discord.gg/pzjDf5BPaS
 
---discord:
+github:
 
---team scripted for errors:
---https://discord.gg/pZXZn9qtAY
+https://github.com/nek205
 
---373RN1TY
---https://discord.gg/pzjDf5BPaS
+]])
+wait(1)
+print([[
+	created by nek205 ;)
 
---github:
---https://github.com/nek205
-
-print("created by nek205 ;)")
-
-print("T0PK3K REMAKE PATCH 26")
+T0PK3K REMAKE PATCH 27
+]])
