@@ -1,5 +1,3 @@
-print(Execution Working)
-
 setfpscap(0)
 
 spawn(function()
@@ -9,6 +7,7 @@ spawn(function()
 	message:Destroy()
 	end)
 
+print("Execution Working")
 wait(1)
 print("Script Executed")
 wait(0.5)
@@ -244,7 +243,7 @@ TextLabel_2.BorderSizePixel = 0
 TextLabel_2.Position = UDim2.new(0, 6, 0, 29)
 TextLabel_2.Size = UDim2.new(1, -12, 0, 20)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "Patch version 27"
+TextLabel_2.Text = "Patch version 28"
 TextLabel_2.TextColor3 = Color3.fromRGB(199, 199, 199)
 TextLabel_2.TextSize = 14.000
 
@@ -810,7 +809,7 @@ TextLabel_13.BorderSizePixel = 0
 TextLabel_13.Position = UDim2.new(0, 6, 0, 6)
 TextLabel_13.Size = UDim2.new(1, -17, 0, 20)
 TextLabel_13.Font = Enum.Font.SourceSans
-TextLabel_13.Text = "Patch: 27"
+TextLabel_13.Text = "Patch: 28"
 TextLabel_13.TextColor3 = Color3.fromRGB(199, 199, 199)
 TextLabel_13.TextSize = 14.000
 
@@ -1059,6 +1058,5 @@ wait(1)
 print([[
 	created by nek205 ;)
 
-T0PK3K REMAKE PATCH 27
+T0PK3K REMAKE PATCH 28
 ]])
-
