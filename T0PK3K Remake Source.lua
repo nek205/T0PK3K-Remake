@@ -1060,11 +1060,3 @@ print([[
 
 T0PK3K REMAKE PATCH 29.5
 ]])
-
--([[
---{FUTURE UPDATES}--
-Executor
-More options
-Admin commands
-idk
-]])
